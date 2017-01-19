@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright (c) 2014 Qualcomm Technologies, Inc.
+** All Rights Reserved.
+** Qualcomm Technologies Proprietary and Confidential.
+**
+*/
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="pass">PASS</string>
+    <string name="fail">FAIL</string>
+    <string name="page_down">PageDown</string>
+    <string name="page_up">PageUp</string>
+    <string name="shut_down">ShutDown</string>
+    <string name="finish">FINISH</string>
+
+    <!-- common strings -->
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="present">detected</string>
+    <string name="absent">not detected</string>
+
+    <!-- system information -->
+    <string name="system_info">SYSTEM INFO</string>
+
+    <!-- camera case -->
+    <string name="camera_back">CAMERA BACK</string>
+    <string name="camera_front">CAMERA FRONT</string>
+    <string name="snapshot">SNAPSHOT</string>
+
+    <!-- battery case -->
+    <string name="battery">BATTERY</string>
+    <string name="battery_title">Attach/Dettach charger. Confirm the values changed?</string>
+    <string name="battery_health">battery health</string>
+    <string name="battery_status">battery status</string>
+    <string name="battery_voltage">battery voltage</string>
+    <string name="charging_indicate">Do you see the LED indication?</string>
+    <string name="discharge_indicate">Battery charged, please discharge for a while and plug in again.</string>
+
+    <!-- lcd case -->
+    <string name="lcd">LCD</string>
+    <string name="next">NEXT</string>
+
+    <!-- keypad backlight case -->
+    <string name="keypad_backlight">KEYPAD BACKLIGHT</string>
+
+    <!-- flashlight case -->
+    <string name="flashlight">FLASHLIGHT</string>
+
+    <!-- leds case -->
+    <string name="led_red">LED RED</string>
+    <string name="led_blue">LED BLUE</string>
+    <string name="led_green">LED GREEN</string>
+
+
+    <!-- sensors case -->
+    <string name="gyroscope">GYROSCOPE SENSOR</string>
+    <string name="gsensor">ACCELEROMETER SENSOR</string>
+    <string name="psensor">PROXIMITY SENSOR</string>
+    <string name="lsensor">LIGHT SENSOR</string>
+    <string name="msensor">MAGNETOMETER SENSOR</string>
+
+    <!-- sdcard case -->
+    <string name="sdcard">SDCARD</string>
+    <string name="sdcard_present">SD card detected</string>
+    <string name="sdcard_absent">SD card not detected</string>
+    <string name="sdcard_capacity">SDCard Capacity</string>
+    <string name="sdcard_used_space">SDCard Used Space</string>
+    <string name="sdcard_free_space">SDCard Free Space</string>
+
+    <!-- simcard case -->
+    <string name="simcard">SIMCARD</string>
+    <string name="detecting">detecting ...</string>
+
+    <!-- touch case -->
+    <string name="touch">TOUCH</string>
+
+    <!-- key case -->
+    <string name="soft_key">SOFT KEY</string>
+    <string name="hardware_key">HARDWARE KEY</string>
+    <string name="key">KEY</string>
+    <string name="home">HOME</string>
+    <string name="menu">MENU</string>
+    <string name="back">BACK</string>
+    <string name="volumeup">VOLUME UP</string>
+    <string name="volumedown">VOLUME DOWN</string>
+    <string name="camsnapshot">CAMERA SNAPSHOT</string>
+
+    <!-- vibrator case -->
+    <string name="vibrator">VIBRATOR</string>
+    <string name="vibrating">Vibrating ...</string>
+    <!-- audio case -->
+    <string name="handset">AUDIO HANDSET</string>
+    <string name="headset">AUDIO HEADSET</string>
+    <string name="loudspeaker">AUDIO LOUDSPEAKER</string>
+    <string name="handset_record">Speak into handset mic for</string>
+    <string name="handset_playback">Verify playback of the previously recorded message via the handset earphone</string>
+    <string name="headset_record">Speak into headset mic for</string>
+    <string name="headset_playback">Verify playback of the previously recorded message via the headset earphone</string>
+    <string name="loudspeaker_playback">Verify playback of the previously recorded message via the loud speaker</string>
+    <string name="headset_second_record">Speak into second mic for</string>
+    <string name="seconds">seconds</string>
+
+    <!-- wifi case -->
+    <string name="wifi">WIFI</string>
+
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="btn_search_next">SEARCH NEXT >></string>
+    <string name="playing_tune">Playing tune</string>
+    <string name="config_audio">Start to config audio path for FM</string>
+    <string name="search_tune">Searching available tune ...</string>
+
+    <!-- bluetooth case -->
+    <string name="bluetooth">BLUETOOTH</string>
+
+    <!-- gps case -->
+    <string name="gps">GPS</string>
+    <string name="run_garden_app">Run garden_app...</string>
+
+    <!-- nfc case -->
+    <string name="nfc">NFC</string>
+    <string name="uicc_detect">UICC detecting</string>
+    <string name="antenna_detect">Antenna detecting</string>
+    <string name="carrier_detect">Carrier detecting</string>
+    <string name="detecting">Waiting for detecting</string>
+    <string name="detected">Detected</string>
+    <string name="not_detected">Not detected</string>
+</resources>

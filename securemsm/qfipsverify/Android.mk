@@ -1,0 +1,57 @@
+#LOCAL_PATH:= $(call my-dir)
+#include $(CLEAR_VARS)
+
+#LOCAL_C_INCLUDES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
+                    $(TARGET_OUT_HEADERS)/common/inc
+#LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+#LOCAL_SHARED_LIBRARIES := \
+#        libc \
+#        libcutils \
+#        libutils
+#LOCAL_MODULE := qfipsverify
+#LOCAL_SRC_FILES := fips.c
+#ifeq ($(FIPS_ENABLED),true)
+#	LOCAL_CFLAGS += -DFIPSENABLED
+#endif # FIPS_ENABLED
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_PRELINK_MODULE := false
+#LOCAL_MODULE_OWNER := qcom
+#include $(BUILD_EXECUTABLE)
+
+#HMAC_KEY := b617318655057264e28bc0b6fb378c8ef146be
+#BOOTIMG_BINARY := $(TARGET_PREBUILT_KERNEL)
+#QFIPSVERYFY_BINARY := $(PRODUCT_OUT)/system/bin/qfipsverify
+
+#HMAC := $(LOCAL_PATH)/bootimg.hmac
+#$(HMAC): $(TARGET_PREBUILT_KERNEL)
+#	$(shell openssl dgst -sha256 -mac HMAC -macopt hexkey:$(HMAC_KEY) $(BOOTIMG_BINARY) | awk '{ print $$2 }'  > $(HMAC))
+
+#ALL_DEFAULT_INSTALLED_MODULES += $(HMAC)
+#ALL_MODULES.$(LOCAL_MODULE).INSTALLED += $(HMAC)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := bootimg.hmac
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := EXECUTABLES
+#LOCAL_SRC_FILES := $(LOCAL_MODULE)
+#LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/usr/qfipsverify
+#LOCAL_MODULE_OWNER := qcom
+#LOCAL_ADDITIONAL_DEPENDENCIES += $(HMAC)
+#include $(BUILD_PREBUILT)
+
+#HMAC_QFIPSVERIFY := $(LOCAL_PATH)/qfipsverify.hmac
+#$(HMAC_QFIPSVERIFY): $(PRODUCT_OUT)/system/bin/qfipsverify
+#	$(shell openssl dgst -sha256 -mac HMAC -macopt hexkey:$(HMAC_KEY) $(QFIPSVERYFY_BINARY) | awk '{ print $$2 }'  > $(HMAC_QFIPSVERIFY))
+
+#ALL_DEFAULT_INSTALLED_MODULES += $(HMAC_QFIPSVERIFY)
+#ALL_MODULES.$(LOCAL_MODULE).INSTALLED += $(HMAC_QFIPSVERIFY)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := qfipsverify.hmac
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := EXECUTABLES
+#LOCAL_SRC_FILES := $(LOCAL_MODULE)
+#LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/usr/qfipsverify
+#LOCAL_MODULE_OWNER := qcom
+#LOCAL_ADDITIONAL_DEPENDENCIES += $(HMAC_QFIPSVERIFY)
+#include $(BUILD_PREBUILT)

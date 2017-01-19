@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright (c) 2014 Qualcomm Technologies, Inc.
+** All Rights Reserved.
+** Qualcomm Technologies Proprietary and Confidential.
+**
+*/
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="pass">通过</string>
+    <string name="fail">失败</string>
+    <string name="page_down">下一页</string>
+    <string name="page_up">上一页</string>
+    <string name="shut_down">关机</string>
+    <string name="finish">完成</string>
+
+    <!-- common strings -->
+    <string name="on">打开</string>
+    <string name="off">关闭</string>
+    <string name="present">检测到</string>
+    <string name="absent">未检测到</string>
+
+    <!-- system information -->
+    <string name="system_info">系统信息</string>
+
+    <!-- camera case -->
+    <string name="camera_back">后摄像头</string>
+    <string name="camera_front">前摄像头</string>
+    <string name="snapshot">拍照</string>
+
+    <!-- battery case -->
+    <string name="battery">电池</string>
+    <string name="battery_title">插拔充电器，查看电池电压是否变化?</string>
+    <string name="battery_health">电池温度状态</string>
+    <string name="battery_status">电池充电状态</string>
+    <string name="battery_voltage">电池电压</string>
+    <string name="charging_indicate">是否看到LED指示灯点亮?</string>
+    <string name="dischage_indicate">电池已充满，请放一会电后再插入充电线</string>
+
+    <!-- lcd case -->
+    <string name="lcd">显示屏</string>
+    <string name="next">下一个</string>
+
+    <!-- keypad backlight case -->
+    <string name="keypad_backlight">键盘背光</string>
+
+    <!-- flashlight case -->
+    <string name="flashlight">闪光灯</string>
+
+    <!-- leds case -->
+    <string name="led_red">红色LED</string>
+    <string name="led_blue">蓝色LED</string>
+    <string name="led_green">绿色LED</string>
+
+    <!-- sensors case -->
+    <string name="gyroscope">陀螺仪</string>
+    <string name="gsensor">加速度传感器</string>
+    <string name="psensor">接近传感器</string>
+    <string name="lsensor">光传感器</string>
+    <string name="msensor">磁场传感器</string>
+
+    <!-- sdcard case -->
+    <string name="sdcard">SD卡</string>
+    <string name="sdcard_present">检测到SD卡</string>
+    <string name="sdcard_absent">没有检测到SD卡</string>
+    <string name="sdcard_capacity">SD卡总容量</string>
+    <string name="sdcard_used_space">已使用大小</string>
+    <string name="sdcard_free_space">未使用大小</string>
+
+    <!-- simcard case -->
+    <string name="simcard">SIM卡</string>
+    <string name="detecting">正在检测...</string>
+
+    <!-- touch case -->
+    <string name="touch">触摸屏</string>
+
+    <!-- key case -->
+    <string name="soft_key">软按键</string>
+    <string name="hardware_key">硬按键</string>
+    <string name="key">按键</string>
+    <string name="home">主页</string>
+    <string name="menu">菜单</string>
+    <string name="back">返回</string>
+    <string name="volumeup">音量上键</string>
+    <string name="volumedown">音量下键</string>
+    <string name="camsnapshot">拍照键</string>
+
+    <!-- vibrator case -->
+    <string name="vibrator">马达</string>
+    <string name="vibrating">正在震动中 ...</string>
+
+    <!-- audio case -->
+    <string name="handset">话筒</string>
+    <string name="headset">耳机</string>
+    <string name="loudspeaker">喇叭</string>
+    <string name="handset_record">通过手机话筒录音</string>
+    <string name="handset_playback">检测是否通过手机播放前面的录音</string>
+    <string name="headset_record">通过耳机话筒录音</string>
+    <string name="headset_playback">检测是否通过耳机播放前面的录音</string>
+    <string name="loudspeaker_playback">检测是否通过喇叭播放前面的录音</string>
+    <string name="headset_second_record">通过第二个手机话筒录音</string>
+    <string name="seconds">秒</string>
+
+    <!-- wifi case -->
+    <string name="wifi">WIFI</string>
+
+    <!-- fm case -->
+    <string name="fm">收音机</string>
+    <string name="btn_search_next">搜索下一个频道</string>
+    <string name="playing_tune">当前播放频道</string>
+    <string name="config_audio">正在设置音频通路...</string>
+    <string name="search_tune">正在搜索频道...</string>
+
+    <!-- bluetooth case -->
+    <string name="bluetooth">蓝牙</string>
+
+    <!-- gps case -->
+    <string name="gps">GPS</string>
+    <string name="run_garden_app">正在运行garden_app...</string>
+
+    <!-- nfc case -->
+    <string name="nfc">NFC</string>
+    <string name="uicc_detect">UICC探测</string>
+    <string name="antenna_detect">天线探测</string>
+    <string name="carrier_detect">载波探测</string>
+    <string name="detecting">等待探测结果</string>
+    <string name="detected">已探测到</string>
+    <string name="not_detected">未探测到</string>
+</resources>
